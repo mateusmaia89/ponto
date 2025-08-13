@@ -1,7 +1,10 @@
 import type { Config } from "tailwindcss";
 
-export default {
-  content: ["./src/**/*.{ts,tsx}"],
+const config: Config = {
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{ts,tsx}"
+  ],
   theme: {
     container: { center: true, padding: "1rem" },
     extend: {
@@ -13,9 +16,11 @@ export default {
         }
       },
       borderRadius: {
-        '2xl': '1.25rem'
+        "2xl": "1.25rem"
       }
     }
   },
   plugins: []
-} satisfies Config;
+};
+
+export default config;
