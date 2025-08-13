@@ -20,3 +20,4 @@ Edite `tailwind.config.ts` → `colors.brand`.
 - `src/app/page.tsx`: monta a LP (Hero, Trust, Benefits, Steps, FeatureGrid, CTA, FAQ).
 - `src/components/*`: componentes reutilizáveis.
 - `public/images/logo.svg`: logo genérica.
+# Deploy trigger
