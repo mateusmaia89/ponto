@@ -1,10 +1,9 @@
+cd /Users/mateusmaia/Downloads/vr-lp-clone-nextjs
+cat > tailwind.config.ts <<'EOF'
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/**/*.{ts,tsx}"
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     container: { center: true, padding: "1rem" },
     extend: {
@@ -24,3 +23,4 @@ const config: Config = {
 };
 
 export default config;
+EOF
