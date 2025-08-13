@@ -1,0 +1,21 @@
+import type { Config } from "tailwindcss";
+
+export default {
+  content: ["./src/**/*.{ts,tsx}"],
+  theme: {
+    container: { center: true, padding: "1rem" },
+    extend: {
+      colors: {
+        brand: {
+          primary: "#0B6B3A",
+          secondary: "#00C853",
+          accent: "#FFB300"
+        }
+      },
+      borderRadius: {
+        '2xl': '1.25rem'
+      }
+    }
+  },
+  plugins: []
+} satisfies Config;
