@@ -7,6 +7,6 @@
 .container-section { @apply container py-16 md:py-20; }
 .card { @apply rounded-2xl border shadow-sm; }
 .btn { @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-medium; }
-.btn-primary { @apply btn bg-brand.primary text-white; }
-.btn-secondary { @apply btn bg-brand.accent text-black; }
+.btn-primary { @apply btn bg-brand-primary text-white; }
+.btn-secondary { @apply btn bg-brand-accent text-black; }
 .link { @apply underline underline-offset-4; }

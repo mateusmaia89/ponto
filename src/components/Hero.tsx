@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="bg-brand.primary text-white">
+    <section className="bg-brand-primary text-white">
       <div className="container-section grid gap-10 md:grid-cols-2 md:items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">

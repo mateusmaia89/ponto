@@ -12,7 +12,7 @@ export default function Steps() {
         <div className="mt-8 grid md:grid-cols-3 gap-6">
           {data.map(s => (
             <div key={s.n} className="card p-6">
-              <div className="h-10 w-10 grid place-items-center rounded-full bg-brand.secondary text-white font-bold">{s.n}</div>
+              <div className="h-10 w-10 grid place-items-center rounded-full bg-brand-secondary text-white font-bold">{s.n}</div>
               <h3 className="mt-4 text-lg font-semibold">{s.t}</h3>
               <p className="mt-2 text-gray-600">{s.d}</p>
             </div>

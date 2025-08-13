@@ -3,7 +3,13 @@ cat > tailwind.config.ts <<'EOF'
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+<<<<<<< HEAD
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+=======
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,mdx}"
+  ],
+>>>>>>> 90fb625 (fix: Tailwind brand colors + content globs)
   theme: {
     container: { center: true, padding: "1rem" },
     extend: {
@@ -23,4 +29,7 @@ const config: Config = {
 };
 
 export default config;
+<<<<<<< HEAD
 EOF
+=======
+>>>>>>> 90fb625 (fix: Tailwind brand colors + content globs)
